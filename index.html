@@ -10,17 +10,17 @@
         font-size: 25px;
         color: white;
     }
-    ul{
+    #meny{
         list-style-type: none;
         overflow: hidden;
         margin: 0;
         padding: 0;
         background-color: #000000;
     }
-    li{
+    a{
         float: right;
     }
-    li a{
+     a{
         text-align: center;
         display: block;
         padding: 15px;
@@ -29,21 +29,24 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
     }
-   li a:hover{
+    a:hover{
         background-color: #FF0000;
     }
+    
 </style>
 <body>
     <div id="header">
     <h1>FreakyFriday</h1>
     </div>
-    <ul>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Informasjon</a></li>
-        <li><a href="#">Ja</a></li>
-        <input id="inpText" type="text" placeholder="Search">
-        
-    </ul>
+    <div class="meny">
+        <a href="#">About us</a></li>
+        <a href="#">Informasjon</a></li>
+        <a href="#">Ja</a></li>
+        <div class="search-container">
+        <input id="inpText" type="text" placeholder="Search" name="search">
+        <button type="submit"></button>
+        </div>
+    </div>
 
    
 </body>
