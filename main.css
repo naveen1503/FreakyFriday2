@@ -50,9 +50,7 @@
         cursor: pointer;
         background-color: #FF0000;
     }
-    .meny .icon{
-        display: none;
-    }
+    
 
     footer{
         background-color: #FF0000;
@@ -74,14 +72,6 @@
         margin-top: 15px;
     }
 
-    @media screen and (max-width: 600px){
-        .meny a:not(:first-child){display: none;
-        }
-        .meny a.icon{
-            float: right;
-            display: block;
-            font-size: 17px;
-        }
-    }
+
 
     
