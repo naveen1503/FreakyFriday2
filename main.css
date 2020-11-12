@@ -61,7 +61,7 @@
         bottom: 0%;
         
     }
-    p :not(:myfooter){
+    #text{
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 35px;
     }
